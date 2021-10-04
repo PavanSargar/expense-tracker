@@ -8,7 +8,7 @@ const ExpensesFilter = (props) => {
   
   const filterHandler = (e) => {
     setFilterDate(e.target.value);
-    props.onChangeFilterDate(e.target.value);
+    props.onChangeFilterDate(filterDate);
   }
 
 
